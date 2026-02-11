@@ -17,3 +17,12 @@ Checkpoint Q3: Constructors change the initialization story due to the fact that
 Checkpoint Q4:The change between Part A's printout to Part D's is that the to String method is being called on rather than the object's memory address, allowing for data variables to be printed out. @Override is useful, when wanting to overwrite over the object, allowing the r toString method and therefore printing our object's data variables without any potential mistakes/mishaps thaat can occur with any previous methods.
 
 Checkpoint Q5: Prefering private fields with getters/setters over private fields is due to the fact its standerized and keeps the field secure. An example of a rule would be bank transactions, that way people aren't sending or taking money from other people's bank accounts.
+
+REFLECTION:
+1. My class's three fields were 
+    private String type;
+    private int toppings;
+    private String meat;
+with their default values before I setted anything were, Unknown, 1, pork.
+
+2. Encapsulation is preffered over public fields, given the fact that it's in the name of the field, "private". Data values are only accessed through a controlled code, that cannot be interferred with. A concrete validation rule that could be added to a setter can be around specific amounts/sizes, where specific numbers allow access to the private fields, while others do not. 

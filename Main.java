@@ -43,13 +43,22 @@ public class Main {
 
     
 
-        System.out.println("\nMutating via setters after making fields private:");
+            System.out.println("\nMutating via setters after making fields private:");
             d3.setAge(6);
             d3.setName("Maxwell");
             d3.setBreed("Border Collie");
             System.out.println("d3 age via getter = " + d3.getAge());
             System.out.println("d3 now = " + d3);
 
+
+            
+              // making a default hotdog object
+            Hotdog hotdog1 =  new Hotdog();
+            //making a hotdog object with given data
+            Hotdog hotdog2 = new Hotdog("Normal", "4", "Beef");
+            System.out.println("hotdog object 1" =  + hotdog1 );
+            System.out.println("hotdog object 2" =  + hotdog2 );
+          
     }//end main
 
 }// end Main class
